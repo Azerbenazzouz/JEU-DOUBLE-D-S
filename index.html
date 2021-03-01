@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>🎲 JEU DOUBLE DÉS 🎲</title>
+</head>
+<body>
+    
+    <center id="cen">
+        <h1>🎲 JEU DOUBLE DÉS 🎲</h1>
+    </center>
+
+    <div class="content">
+        <!-- hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+        <div class="user">
+            <div>
+                <h2 id="score1">score  : 100</h2>
+                <h2 id="score2">score  : 100</h2>
+            </div>
+            <div>
+                <h2 id="tour">tour : </h2>
+            </div>
+        </div>
+        <!-- hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+            <div class="game">
+                <center>
+                    <div id="gamein">
+                        <center>
+                            <div class="ran">                           
+                                    <div>
+                                        <div class="numjet1">
+                                            Go
+                                        </div>
+                                        <h1 id="user1t"></h1>
+                                    </div>
+                                    <div>
+                                        <div class="numjet2">
+                                            Go
+                                        </div>
+                                        <h1 id="user2t"></h1>
+                                    </div>
+                            </div>
+                        </center>
+                        <button id='play' onclick="playgg()">Play</button>
+                    </div>
+                    <h1 id="winner"></h1>
+                    <!-- <h1 id='winner'>🥳  azer is the winner  🥳 </br><button onclick='replay()' id='play'>Replay</button></h1> -->
+                </center>
+            </div>
+        <!-- hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+        <table id="customers">
+            <thead>
+                <tr>
+                    <th>tour</th>
+                    <th id='user1'></th>
+                    <th id='user2'></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+         
+    </div>
+    <video id="v" src="game audio.mp4" autoplay loop></video>
+    <audio id="click" src="click.mp3"></audio>
+    <audio id="win" src="winner.mp3"></audio>
+    
+    <script src="js.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,128 @@
+body{
+    background-image: url(Web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* width: 100%;
+    height: 100vh; */
+}
+#cen{
+  margin-top: 5px;
+  height: 20vh;
+}
+.content {
+  position: relative;
+}
+
+
+/* table */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 21%;
+    position: absolute;
+    top: 8px;
+    right: 4px;
+    font-size: 18px;
+    border: 5px solid black;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+
+/* user */
+  .user{
+      width: 20%;
+      position: absolute;
+      top: 8px;
+      left: 4px;
+      font-size: 18px;
+      background-color: rgb(117, 117, 255);
+      padding: 8px;
+      border: 5px solid;
+  }
+  .user h2{
+      color: white;
+  }
+  center h1{
+      color: red;
+  }
+
+
+
+/* game */
+  .game{
+        right: 10px;
+        margin: auto;
+        width: 50%;
+        border: 5px solid green;
+        background-color:rgba(225, 225, 255, 0.678);
+  }
+  .numjet1{
+        padding: 10px;
+        border: 5px solid black;
+        width: 100px;
+        height: 100px;
+        font-size: 75px;
+        font-weight: bold;
+        margin: 10px;
+
+  } 
+  .numjet2{
+    padding: 10px;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 10px;
+} 
+.ran{
+  display: inline-flex;
+}
+  #play{
+    margin: 10px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  #play:hover{
+    background-color: #3e8e41
+  }
+  #play:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  #winner{
+      color: blue;
+      font-size: 50px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding: 15%;
+      background-color:chartreuse;
+  }
+  video{
+    width: 0%;
+    height: 0%;
+  }
